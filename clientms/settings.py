@@ -86,10 +86,12 @@ AUTH_USER_MODEL = 'users.CustomUser'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'clientms',
-        'USER': 'postgres',
-        'PASSWORD': 'h0land3svoLaD5',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'da42m9nm2evlfu',
+        'USER': 'irwgtundaxmkxk',
+        'PASSWORD': 'e735a421a73f2a21d0b47fab4d85a9cac6fd54c39293f7e82da114b11665eade',
+        'HOST': 'ec2-44-196-8-220.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
